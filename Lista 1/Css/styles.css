@@ -1,0 +1,36 @@
+body {
+    background-color: #16441c;
+    font-family: Arial, sans-serif;
+    color: #725811;
+}
+h1, h4 {
+    color: #8b6111; 
+}
+p {
+    color: #369494;
+}
+a {
+    color: #7991d8;
+}
+
+img.rounded {
+    border-radius: 100%;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
