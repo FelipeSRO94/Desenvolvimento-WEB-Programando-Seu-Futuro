@@ -1,0 +1,52 @@
+#conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.conteudo-produto {
+    background: rgb(21, 21, 104);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    color: aliceblue;
+}
+
+.conteudo-produto h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.conteudo-produto p {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.conteudo-produto button {
+    padding: 10px 20px;
+    background-color: rgba(46, 40, 40, 0);
+    color: seashell;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.conteudo-produto button:hover {
+    background-color: #ff0000;
+}
