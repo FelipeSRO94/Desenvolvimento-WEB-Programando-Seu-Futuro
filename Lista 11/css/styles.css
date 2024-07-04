@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #eb7b5f, #feb47b);
+}
+
+.container {
+    text-align: center;
+    background: rgb(231, 225, 135);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: borderAnimation 3s infinite;
+    background: radial-gradient(circle, #ffe75f, #feb47b);
+}
+
+@keyframes borderAnimation {
+    0%, 100% {
+        border: 5px solid #3498db;
+    }
+    50% {
+        border: 5px solid #e74c3c;
+    }
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#salarioBruto {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    animation: btnClickAnimation 0.2s;
+}
+
+@keyframes btnClickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#resultadoIR, #resultadoLiquido {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+tado {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
